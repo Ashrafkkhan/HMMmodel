@@ -1,0 +1,33 @@
+# --- Data: download separately (see data/README.md) ---
+data/*
+!data/README.md
+*.xlsx
+*.xls
+
+# --- Generated at runtime: parsed-data cache and saved model bundles ---
+artifacts/*
+!artifacts/.gitkeep
+*.pkl
+*.joblib
+
+# --- Reports and office files ---
+*.docx
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Node (only used for optional tooling) ---
+node_modules/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

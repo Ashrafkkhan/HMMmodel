@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Customer Segmentation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand"><span class="dot"></span>Customer segmentation</div>
+      <div class="controls" id="controls"></div>
+    </div>
+    <nav class="nav" id="nav"></nav>
+  </header>
+  <main id="main"><div class="center"><div><div class="spinner"></div>Starting…</div></div></main>
+  <div class="busy" id="busy"><div class="center" style="min-height:0"><div><div class="spinner"></div><span id="busyText">Recomputing…</span></div></div></div>
+  <div class="tip" id="tip"></div>
+  <input type="file" id="file" accept=".xlsx,.csv" hidden>
+  <script src="charts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
